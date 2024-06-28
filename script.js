@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     const existingButton = document.getElementById('existing');
 
-    // Check if there are saved details in local storage
     if (localStorage.getItem('username') && localStorage.getItem('password')) {
         existingButton.style.display = 'block';
     }
